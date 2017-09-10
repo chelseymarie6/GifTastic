@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Gif Tastic!</title>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                    <h1>A fantastic gif generator!</h1>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+    </div>
+        
+    <div>
+        <h3>Your favorite gifs!</h3>
+        <!-- Gifs will get put here -->
+        <div id="movies-view"></div>
+        <!-- Rendered buttons will get put here  -->
+        <div id="buttons-view"></div>
+            <form id="movie-form">
+                  <label for="movie-input">Add a favorite movie or tv show to reveal gifs!</label>
+                  <input type="text" id="movie-input"><br>
+                  <!-- Button triggers new movie or show to be added -->
+                  <input id="add-movie" type="submit" value="Add some gifs!">
+            </form>
+    </div>
+    
+    <button id="gif-button"></button>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
