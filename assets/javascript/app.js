@@ -19,8 +19,10 @@ $(document).ready(function(){
 
 $("body").on("click", "#add-movie", function(event) {
     event.preventDefault();
-    newMovieValue = $("movie-input").val();
+    newMovieValue = $("#movie-input").val();
+    console.log(newMovieValue);
     newButton = "<button class='btn btn-lrg btn-primary movie-buttons' data-movie=" + newMovieValue + ">" + newMovieValue + "</button>";
+
     $("#movie-buttons-container").append(newButton);
 
 });
