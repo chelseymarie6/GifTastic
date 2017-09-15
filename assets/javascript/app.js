@@ -1,4 +1,4 @@
-var movieArray = ["Star Trek", "Star Wars", "Jurassic Park", "The Godfather", "Speed", "The Dark Knight", "Pulp Fiction", "Lord of the Rings", "Fight Club", "Inception", "The Matrix", "Spirited Away", "Interstellar", "saving Private Ryan"];
+var movieArray = ["Star Trek", "Star Wars", "Jurassic Park", "The Godfather", "Speed", "The Dark Knight", "Pulp Fiction", "Lord of the Rings", "Fight Club", "Inception", "The Matrix", "Spirited Away", "Interstellar", "Saving Private Ryan"];
 var buttonsHTML = " ";
 var newMovieValue;
 var searchMovie;
