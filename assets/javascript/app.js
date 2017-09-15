@@ -29,7 +29,7 @@ $(document).ready(function(){
     $("body").on("click", ".movie-buttons", function(event) {
         $(".giphy-div").empty();
         searchMovie = $(this).attr("data-movie");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchMovie + "&limit=10" + "&api_key=2a046d21cf8b42c98cb59a53cdb927f9";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchMovie + "&limit=10" + "&api_key=2a046d21cf8b42c98cb59a53cdb927f9";
         console.log(queryURL);
 
         $.ajax({
