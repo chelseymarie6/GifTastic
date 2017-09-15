@@ -13,7 +13,7 @@ function generateButtons() {
     $("#movie-buttons-container").html(buttonsHTML);
 }
 
-$(document).ready(function (){
+$(document).ready(function(){
 
     generateButtons();
 
