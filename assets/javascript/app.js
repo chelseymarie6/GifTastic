@@ -1,4 +1,4 @@
-var movieArray = ["Star Trek", "Star Wars", "Jurassic Park", "The Godfather", "Speed", "The Dark Knight", "Pulp Fiction", "Lord of the Rings", "Fight Club", "Inception", "The Matrix", "Spirited Away", "Interstellar", "Saving Private Ryan"];
+var movieArray = ["Star Wars", "Jurassic Park", "The Godfather", "Speed", "The Dark Knight", "Pulp Fiction", "Lord of the Rings", "Fight Club", "Inception", "The Matrix", "Spirited Away", "Interstellar", "Saving Private Ryan", "Star Trek"];
 var buttonsHTML = " ";
 var newMovieValue;
 var searchMovie;
@@ -29,7 +29,8 @@ $(document).ready(function(){
     $("body").on("click", ".movie-buttons", function(event) {
         $(".giphy-div").empty();
         searchMovie = $(this).attr("data-movie");
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchMovie + "&limit=10" + "&api_key=2a046d21cf8b42c98cb59a53cdb927f9";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchMovie + "&limit=10" + "&api_key=dc6zaTOxFJmzC";
+        // my api key = 2a046d21cf8b42c98cb59a53cdb927f9
         console.log(queryURL);
 
         $.ajax({
